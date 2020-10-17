@@ -18,6 +18,11 @@
         </dependency>
         <dependency>
             <groupId>org.kyou.stack</groupId>
+            <artifactId>stack-springboot-domain</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.kyou.stack</groupId>
             <artifactId>stack-springboot-export</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
