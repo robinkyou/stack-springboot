@@ -8,7 +8,6 @@ import org.robinkyou.stack.demo.domain.po.Person;
 import org.robinkyou.stack.demo.service.PersonService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
