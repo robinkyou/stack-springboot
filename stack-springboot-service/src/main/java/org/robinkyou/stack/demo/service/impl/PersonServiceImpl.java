@@ -20,7 +20,7 @@ public class PersonServiceImpl implements PersonService {
 
 
     @Override
-    public BizResponse<Person> queryPersonByPersonId(BizRequest<Long> bizRequest) {
+    public BizResponse<Person> queryPersonByPersonId(BizRequest<Integer> bizRequest) {
         logger.info("queryPersonByPersonId.param-{}", JSON.toJSONString(bizRequest));
         Person person = personDao.queryPersonByPersonId(bizRequest.getData());
         BizResponse<Person> bizResponse = BizResponse.buildSuccessResult(person);

@@ -5,5 +5,5 @@ import org.robinkyou.stack.demo.domain.po.Person;
 
 @Mapper
 public interface PersonDao {
-    Person queryPersonByPersonId(Long personId);
+    Person queryPersonByPersonId(Integer personId);
 }

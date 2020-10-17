@@ -1,15 +1,15 @@
 package org.robinkyou.stack.demo.domain.po;
 
 public class Person {
-    private Long personId;
+    private Integer personId;
     private String name;
     private int age;
 
-    public Long getPersonId() {
+    public Integer getPersonId() {
         return personId;
     }
 
-    public void setPersonId(Long personId) {
+    public void setPersonId(Integer personId) {
         this.personId = personId;
     }
 

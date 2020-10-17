@@ -18,8 +18,8 @@ public class PersonController {
     private PersonService personService;
 
     @RequestMapping("/queryPersonByPersonId/{personId}")
-    public BizResponse<Person> queryPersonByPersonId(@PathVariable Long personId) {
-        BizRequest<Long> bizRequest = new BizRequest<>();
+    public BizResponse<Person> queryPersonByPersonId(@PathVariable Integer personId) {
+        BizRequest<Integer> bizRequest = new BizRequest<>();
         bizRequest.setRequestId(UUID.randomUUID().toString());
         bizRequest.setClientIp("127.0.0.1");
         bizRequest.setData(personId);
